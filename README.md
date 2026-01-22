@@ -56,17 +56,6 @@ Or for development:
 gemini extensions link /path/to/mcp-explorium
 ```
 
-### Docker Deployment
-
-For self-hosting with Docker:
-
-```bash
-docker build -t vibe-prospecting-mcp .
-docker run -e API_ACCESS_TOKEN=your_token vibe-prospecting-mcp
-```
-
-**Required**: `API_ACCESS_TOKEN` environment variable for authentication.
-
 ## Usage
 
 ### Gemini CLI
@@ -74,12 +63,6 @@ docker run -e API_ACCESS_TOKEN=your_token vibe-prospecting-mcp
 - The extension is automatically loaded and managed by Gemini CLI
 - OAuth authentication is handled automatically on first use
 - For more information, refer to the [Gemini CLI documentation](https://geminicli.com/docs/extensions/)
-
-### Docker
-
-- Requires API access token for authentication
-- Server runs on port 44280 by default
-- Connect via MCP remote protocol
 
 ## Support & Documentation
 
