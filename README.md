@@ -47,13 +47,13 @@ Get the engineering leadership team at Palo Alto Networks
 Install the extension directly from this repository:
 
 ```bash
-gemini extensions install https://github.com/explorium-ai/mcp-explorium
+gemini extensions install https://github.com/explorium-ai/vibeprospecting-mcp
 ```
 
 Or for development:
 
 ```bash
-gemini extensions link /path/to/mcp-explorium
+gemini extensions link /path/to/vibeprospecting-mcp
 ```
 
 ## Usage
