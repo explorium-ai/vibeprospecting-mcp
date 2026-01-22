@@ -1,0 +1,14 @@
+{
+  "name": "vibe-prospecting",
+  "version": "2.0.0",
+  "description": "Power your chat with B2B data to create lead lists, research companies, personalize your outreach, and more.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.0"
+  },
+  "author": "vibeprospecting.ai",
+  "license": "MIT"
+}

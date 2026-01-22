@@ -1,0 +1,17 @@
+{
+  "name": "vibe-prospecting",
+  "version": "2.0.0",
+  "description": "Power your chat with B2B data to create lead lists, research companies, personalize your outreach, and more.",
+  "author": {
+    "name": "vibeprospecting.ai",
+    "email": "support@vibeprospecting.ai",
+    "url": "https://www.vibeprospecting.ai/"
+  },
+  "mcpServers": {
+    "vibe-prospecting": {
+      "url": "https://mcp-gemini.vibeprospecting.ai/mcp",
+      "type": "mcp"
+    }
+  },
+  "contextFileName": "gemini-context-prompt.md"
+}

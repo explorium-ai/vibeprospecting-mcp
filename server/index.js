@@ -1,0 +1,1 @@
+console.log("Starting VibeProspecting MCP server...");
