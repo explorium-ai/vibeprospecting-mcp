@@ -1,5 +1,7 @@
 # Vibe Prospecting
 
+<img src="logo.png" alt="VibeProspecting Logo" width="90">
+
 **Power your chat with B2B data to create lead lists, research companies, personalize your outreach, and more.**
 
 ## Overview
