@@ -44,10 +44,10 @@ claude mcp list
 
 Add it as a custom connector through the UI (no terminal needed):
 
-1. Open **Settings → Connectors** (in Cowork/Claude Desktop) or **Customize → Connectors** on claude.ai
-2. Click the **+** next to *Connectors* and choose **Add custom connector**
-3. **Name:** `Vibe Prospecting` — **URL:** `https://vibeprospecting.explorium.ai/mcp`
-4. Click **Add**, then follow the sign-in prompts to grant access
+1. Open **Customize → Connectors** in Chat/Cowork/Code in Claude Desktop 
+2. Click the **+** next to *Connectors* and choose **Browse connectors**
+3. Under `Anthropic & Partners` look for **Name:** `Vibe Prospecting` — **URL:** `https://vibeprospecting.explorium.ai/mcp`
+4. Click **+** and then click **Install**, then follow the sign-in prompts to grant access
 
 Once added, Vibe Prospecting's tools are available to Claude automatically.
 
@@ -123,7 +123,7 @@ the decision-makers and export the list to CSV.
 
 ## Support & documentation
 
-- [API Documentation](https://developers.explorium.ai/mcp-docs/vibeprospecting)
+- [API Documentation](https://docs.vibeprospecting.ai)
 - [Support & Help Center](https://www.vibeprospecting.ai/contact-us)
 - [Vibe Prospecting Homepage](https://www.vibeprospecting.ai)
 
@@ -131,4 +131,4 @@ For technical support, contact support@vibeprospecting.ai.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the Explorium Term of Service. See [Term of Service](https://www.vibeprospecting.ai/terms-of-service) for details.
