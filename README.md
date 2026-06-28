@@ -83,12 +83,14 @@ The extension is loaded and managed automatically by Gemini CLI, and OAuth sign-
 
 Hermes uses the same remote endpoint, but its CLI needs the server written to config plus an explicit OAuth login. Run these in your terminal:
 
-1. **Register the server** — set it in config directly (more reliable than `hermes mcp add`, which can try to authenticate before the entry is saved):
+1. **Register the server** — write **both** keys directly under `mcp_servers:`, which is the namespace `hermes mcp login` (and the runtime) read from:
 
    ```bash
    hermes config set mcp_servers.vibe_prospecting.url "https://vibeprospecting.explorium.ai/mcp"
    hermes config set mcp_servers.vibe_prospecting.auth oauth
    ```
+
+   Don't use `hermes mcp add`: in a non-interactive shell it can fail mid-way and save a **disabled, half-written entry** under `mcp_servers:` — `auth` set but `url` dropped — which then fails at login. Setting both keys yourself avoids it, and if you already hit it, the same two commands repair it. (A `url` showing up elsewhere in config doesn't count — `hermes mcp login` only reads `mcp_servers:`.)
 
 2. **Sign in** — opens your browser to authenticate:
 
