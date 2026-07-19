@@ -79,6 +79,17 @@ gemini extensions install https://github.com/explorium-ai/vibeprospecting-mcp
 
 The extension is loaded and managed automatically by Gemini CLI, and OAuth sign-in is handled on first use. See the [Gemini CLI extensions docs](https://geminicli.com/docs/extensions/) for details.
 
+### Manus
+
+Connect Vibe Prospecting from Manus’s built-in connectors UI (no local server or API key):
+
+1. Open the **connectors** menu (or choose **+ Add connectors**).
+2. Search for **`vibe`**.
+3. Under **Apps**, select **Vibe Prospecting** (“Build B2B lead lists and enrich companies and contacts”).
+4. Confirm the connector details (MCP by Explorium), then click **Try it out** / connect and complete the browser sign-in.
+
+Once connected, use Vibe Prospecting from a Manus chat with prompts like those in [Examples](#examples).
+
 ### Hermes
 
 Hermes uses the same remote endpoint, but its CLI needs the server written to config plus an explicit OAuth login. Run these in your terminal:
