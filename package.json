@@ -10,5 +10,13 @@
     "@modelcontextprotocol/sdk": "^1.25.0"
   },
   "author": "vibeprospecting.ai",
-  "license": "MIT"
+  "license": "MIT",
+  "overrides": {
+    "@hono/node-server": {
+      "@hono/node-server": "2.0.10"
+    },
+    "@modelcontextprotocol/sdk": {
+      "@hono/node-server": "2.0.10"
+    }
+  }
 }
