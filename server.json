@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.explorium-ai/vibeprospecting",
+  "title": "Vibe Prospecting",
+  "description": "B2B company and contact data for lead lists, enrichment, research, and outreach. OAuth sign-in.",
+  "repository": {
+    "url": "https://github.com/explorium-ai/vibeprospecting-mcp",
+    "source": "github"
+  },
+  "version": "2.0.0",
+  "websiteUrl": "https://www.vibeprospecting.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vibeprospecting.explorium.ai/mcp"
+    }
+  ]
+}
