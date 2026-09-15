@@ -165,6 +165,11 @@ the decision-makers and export the list to CSV.
 
 For technical support, contact support@vibeprospecting.ai.
 
+
+## Directory listings
+
+Listed in the [Claude Market MCP directory](https://www.claudemarket.ai/mcp).
+
 ## License
 
 This project is licensed under the Explorium Term of Service. See [Term of Service](https://www.vibeprospecting.ai/terms-of-service) for details.
